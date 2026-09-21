@@ -4,7 +4,7 @@ A responsive academic portfolio for [Qianru Li](https://github.com/Pangolin112),
 
 Plain HTML, CSS, and JavaScript. No build step, framework, analytics, or runtime third-party dependencies. Images, video, and institution logos are served locally; typography uses system fonts. Core content and links remain usable with JavaScript disabled.
 
-The academic layout takes inspiration from the compact research rows on [Niessner Lab's publications page](https://niessnerlab.org/publications.html), [Jon Barron's homepage](https://github.com/jonbarron/jonbarron.github.io), and [Jingchao Xie's homepage](https://jchao-xie.github.io/). It uses a small portrait in a rounded frame, closely spaced resource buttons, an introduction beside the news on desktop, and aligned research and experience entries. Inline SVG icons identify button actions; the page has no decorative patterns or background illustrations. All biography, research content, and assets are Qianru's own or attributed below.
+The academic layout takes inspiration from the compact research rows on [Niessner Lab's publications page](https://niessnerlab.org/publications.html), [Jon Barron's homepage](https://github.com/jonbarron/jonbarron.github.io), and [Jingchao Xie's homepage](https://jchao-xie.github.io/). It uses a small portrait in a rounded frame, closely spaced resource buttons, separate full-width About and News sections, and aligned research and experience entries with comfortable spacing. Inline SVG icons identify button actions; the page has no decorative patterns or background illustrations. All biography, research content, and assets are Qianru's own or attributed below.
 
 ## Preview locally
 
