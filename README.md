@@ -2,7 +2,9 @@
 
 A responsive academic portfolio for [Qianru Li](https://github.com/Pangolin112), with research visuals, publications, project links, education and research affiliations, and a prominent invitation for PhD opportunities.
 
-Plain HTML, CSS, and JavaScript. No build step, framework, analytics, or runtime third-party dependencies. Images, video, institution logos, and fonts are served locally. Core content and links remain usable with JavaScript disabled.
+Plain HTML, CSS, and JavaScript. No build step, framework, analytics, or runtime third-party dependencies. Images, video, and institution logos are served locally; typography uses system fonts. Core content and links remain usable with JavaScript disabled.
+
+The simple academic layout takes inspiration from [Jingchao Xie's homepage](https://jchao-xie.github.io/): a white background, clear section headings, research entries with images beside their descriptions, and chronological experience and education lists. All biography, research content, and assets are Qianru's own or attributed below.
 
 ## Preview locally
 
@@ -20,12 +22,12 @@ Push the website files to this repository's `main` branch. In **Settings → Pag
 
 ## Updating content
 
-- **`index.html`**: biography, PhD availability, email, news, publication metadata, project cards, experience, social links, and search/social metadata. Update the filter counts when adding or removing work.
-- **`styles.css`**: responsive layout, colors, typography, reduced-motion support, and print styles.
-- **`script.js`**: research filters, mobile navigation, BibTeX entries, clipboard interaction, and the CinemaTraj video dialog.
-- **`assets/`**: local photos, research figures, demo video, logos, and self-hosted fonts. Keep attribution below current when replacing assets.
+- **`index.html`**: biography, PhD availability, email, news, publication and project entries, experience, education, social links, and search/social metadata.
+- **`styles.css`**: responsive layout, colors, system typography, and print styles.
+- **`script.js`**: mobile navigation, BibTeX entries, clipboard interaction, and the CinemaTraj video dialog.
+- **`assets/`**: local photos, research figures, demo video, and logos. Keep attribution below current when replacing assets.
 
-The publications have direct paper/project links and accessible BibTeX dialogs. Research filters announce the visible work count. The demo only plays after an explicit click, pauses when its dialog closes, and does not automatically start for visitors who prefer reduced motion.
+All publications and projects are visible on the page, with direct resource links. Publications also have accessible BibTeX dialogs. The demo only plays after an explicit click, pauses when its dialog closes, and does not automatically start for visitors who prefer reduced motion.
 
 ## Content sources and asset attribution
 
@@ -44,10 +46,9 @@ Public sources were checked on 21 September 2026:
 | TUM logo | [Official TUM website](https://www.tum.de/en/), [original SVG](https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Backend/tum-logo.svg) |
 | Huawei logo | [Official Huawei website](https://www.huawei.com/en/) |
 | Southeast University logo | [Official university website](https://www.seu.edu.cn/english/), [original SVG](https://www.seu.edu.cn/_upload/tpl/0c/ea/3306/template3306/images/logo.svg) |
-| DM Sans and Instrument Serif | [Google Fonts](https://fonts.google.com/); SIL Open Font License files in `assets/fonts/` |
 
 CinemaTraj's author list and proceedings citation follow its project page, which differs from the initially indexed arXiv/Scholar author list. VideoReloc is labeled as a preprint, without assigning an unverified conference venue.
 
 LinkedIn did not permit automated access; the owner supplied the relevant profile text. Education and experience use those confirmed roles and dates. Huawei employment is located in Munich, as supplied by the owner. The research papers separately list Dresden affiliations. TUM education is dated October 2023–July 2026, and the Huawei master's thesis is listed as March 2026–present, matching the supplied profile without assuming a graduation status. The partial grade shown in the profile is omitted.
 
-Anamorphic Scene uses the authentic teaser from the owner-supplied guided research report and credits Qianru Li and Lukas Höllein. Its description reflects the report’s use of 3D Gaussian scenes, viewpoint-specific pattern projection, and diffusion-guided style harmonization. The report’s conference-template metadata is not treated as evidence of a publication venue. The Splatter Scene card displays a crop of the original poster via CSS; its report remains linked for the complete context. WebP figures and the silent MP4 demo are web-optimized versions of the original project media. The Southeast University SVG is framed to show its original emblem, and the official white TUM logo appears on a blue background. Project media and university/company logos retain their original ownership.
+Anamorphic Scene uses the authentic teaser from the owner-supplied guided research report and credits Qianru Li and Lukas Höllein. Its description reflects the report’s use of 3D Gaussian scenes, viewpoint-specific pattern projection, and diffusion-guided style harmonization. The report’s conference-template metadata is not treated as evidence of a publication venue. The Splatter Scene entry displays a crop of the original poster via CSS; its report remains linked for the complete context. WebP figures and the silent MP4 demo are web-optimized versions of the original project media. The Southeast University SVG is framed to show its original emblem, and the original TUM logo geometry is rendered in TUM blue on white. Project media and university/company logos retain their original ownership.

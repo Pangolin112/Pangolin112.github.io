@@ -10,6 +10,7 @@ menuToggle.hidden = false;
 function closeMenu() {
   menuToggle.setAttribute("aria-expanded", "false");
   menuToggle.setAttribute("aria-label", "Open navigation");
+  menuToggle.textContent = "Menu";
   navigation.classList.remove("is-open");
 }
 
@@ -17,6 +18,7 @@ menuToggle.addEventListener("click", () => {
   const isOpen = menuToggle.getAttribute("aria-expanded") !== "true";
   menuToggle.setAttribute("aria-expanded", String(isOpen));
   menuToggle.setAttribute("aria-label", isOpen ? "Close navigation" : "Open navigation");
+  menuToggle.textContent = isOpen ? "Close" : "Menu";
   navigation.classList.toggle("is-open", isOpen);
 });
 navigation.addEventListener("click", (event) => {
@@ -44,6 +46,10 @@ function updateNavigation() {
   for (const section of sections) {
     if (section.getBoundingClientRect().top <= readingLine) activeSection = section;
   }
+  // The final section may be too short to reach the reading line.
+  if (window.scrollY > 0 && window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) {
+    activeSection = sections[sections.length - 1];
+  }
   for (const link of navLinks) {
     if (link.getAttribute("href") === `#${activeSection.id}`) {
       link.setAttribute("aria-current", "location");
@@ -59,27 +65,6 @@ window.addEventListener("scroll", () => {
   window.requestAnimationFrame(updateNavigation);
 }, { passive: true });
 updateNavigation();
-
-const filters = document.querySelector(".filters");
-const filterButtons = [...filters.querySelectorAll("button")];
-const workGroups = [...document.querySelectorAll("[data-work-group]")];
-const filterStatus = document.querySelector("#filter-status");
-filters.hidden = false;
-for (const button of filterButtons) {
-  button.addEventListener("click", () => {
-    const filter = button.dataset.filter;
-    for (const otherButton of filterButtons) {
-      otherButton.setAttribute("aria-pressed", String(otherButton === button));
-    }
-    for (const group of workGroups) {
-      group.hidden = filter !== "all" && group.dataset.workGroup !== filter;
-    }
-    const count = workGroups.filter((group) => !group.hidden)
-      .reduce((total, group) => total + group.querySelectorAll("[data-kind]").length, 0);
-    const label = filter === "all" ? "works" : filter === "publication" ? "publications" : "projects";
-    filterStatus.textContent = `Showing ${count} ${label}.`;
-  });
-}
 
 // Metadata follows the project pages. VideoReloc is an arXiv preprint.
 const citations = {
@@ -113,7 +98,7 @@ const citationTitle = document.querySelector("#citation-title");
 const copyStatus = document.querySelector("#copy-status");
 const copyButton = document.querySelector("#copy-citation");
 for (const button of document.querySelectorAll("[data-citation]")) {
-  button.hidden = false;
+  button.closest("[data-citation-control]").hidden = false;
   button.addEventListener("click", () => {
     const citation = citations[button.dataset.citation];
     citationTitle.textContent = `Cite ${citation.name}`;
@@ -159,7 +144,7 @@ const demoDialog = document.querySelector("#demo-dialog");
 const demoVideo = document.querySelector("#cinematraj-video");
 const demoButton = document.querySelector("[data-open-demo]");
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-demoButton.hidden = false;
+demoButton.closest("[data-demo-control]").hidden = false;
 demoButton.addEventListener("click", () => {
   demoDialog.showModal();
   // Playback follows an explicit click; reduced-motion visitors use controls.
