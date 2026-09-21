@@ -145,10 +145,9 @@ h2 { font-family: var(--serif); font-weight: 400; font-size: 44px; line-height: 
 .project-image:hover > img { scale: 1.03; }
 .project-image--4otex > img { width: 142%; max-width: none; flex-shrink: 0; }
 .project-image--splatter > img { position: absolute; width: 310%; max-width: none; height: auto; right: -1%; top: -38%; }
-.project-image--anamorphic > img { width: 100%; height: 100%; object-fit: cover; }
+.project-image--anamorphic > img { width: 100%; height: 100%; object-fit: contain; }
 .image-link-icon { position: absolute; right: 10px; top: 10px; display: flex; align-items: center; justify-content: center; width: 27px; height: 27px; border-radius: 50%; background: rgb(250 250 246 / 94%); color: var(--green); box-shadow: 0 1px 4px rgb(0 0 0 / 6%); }
 .image-link-icon .icon { width: 13px; height: 13px; }
-.concept-label { position: absolute; bottom: 8px; right: 9px; font-size: 8px; color: #686f62; }
 .project-copy { display: flex; flex-direction: column; flex: 1; padding: 21px 20px 19px; }
 .project-category { color: #6d755f; font-size: 9px; font-weight: 500; letter-spacing: .8px; text-transform: uppercase; }
 .project-card h4 { margin-top: 7px; font-family: var(--serif); font-weight: 400; font-size: 28px; line-height: 1.15; }
@@ -410,7 +409,6 @@ dialog::backdrop { background: rgb(20 30 23 / 50%); backdrop-filter: blur(4px); 
   .project-subtitle, .project-description { font-size: 13px; }
   .project-copy .work-links { gap: 21px; padding-top: 13px; }
   .project-copy .work-links a { font-size: 12px; }
-  .concept-label { font-size: 9px; }
   .research-footer { align-items: flex-start; gap: 15px; font-size: 10px; }
   .research-footer .text-link { font-size: 10px; white-space: nowrap; }
   .research-footer .icon { width: 12px; height: 12px; }
