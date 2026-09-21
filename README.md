@@ -47,7 +47,7 @@ Public sources were checked on 21 September 2026:
 | Huawei logo | [Official Huawei website](https://www.huawei.com/en/) |
 | Southeast University logo | [Official university website](https://www.seu.edu.cn/english/), [original SVG](https://www.seu.edu.cn/_upload/tpl/0c/ea/3306/template3306/images/logo.svg) |
 
-CinemaTraj's author list and proceedings citation follow its project page, which differs from the initially indexed arXiv/Scholar author list. VideoReloc is labeled as a preprint, without assigning an unverified conference venue.
+CinemaTraj's author list and proceedings citation follow its project page, which differs from the initially indexed arXiv/Scholar author list. The owner confirmed July 2026 as the month of the CinemaTraj acceptance result. VideoReloc is labeled as a preprint, without assigning an unverified conference venue.
 
 LinkedIn did not permit automated access; the owner supplied the relevant profile text. Education and experience use those confirmed roles and dates. Huawei employment is located in Munich, as supplied by the owner. The research papers separately list Dresden affiliations. TUM education is dated October 2023–July 2026, and the Huawei master's thesis is listed as March 2026–present, matching the supplied profile without assuming a graduation status. The partial grade shown in the profile is omitted.
 
