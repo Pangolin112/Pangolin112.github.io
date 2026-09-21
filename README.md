@@ -4,7 +4,7 @@ A responsive academic portfolio for [Qianru Li](https://github.com/Pangolin112),
 
 Plain HTML, CSS, and JavaScript. No build step, framework, analytics, or runtime third-party dependencies. Images, video, and institution logos are served locally; typography uses system fonts. Core content and links remain usable with JavaScript disabled.
 
-The simple academic layout takes inspiration from [Jingchao Xie's homepage](https://jchao-xie.github.io/): a white background, clear section headings, research entries with images beside their descriptions, and chronological experience and education lists. All biography, research content, and assets are Qianru's own or attributed below.
+The academic layout takes inspiration from the compact research rows on [Niessner Lab's publications page](https://niessnerlab.org/publications.html), [Jon Barron's homepage](https://github.com/jonbarron/jonbarron.github.io), and [Jingchao Xie's homepage](https://jchao-xie.github.io/). It uses a small portrait in a rounded frame, closely spaced resource buttons, an introduction beside the news on desktop, and aligned research and experience entries. Inline SVG icons identify button actions; the page has no decorative patterns or background illustrations. All biography, research content, and assets are Qianru's own or attributed below.
 
 ## Preview locally
 
@@ -27,7 +27,7 @@ Push the website files to this repository's `main` branch. In **Settings → Pag
 - **`script.js`**: mobile navigation, BibTeX entries, clipboard interaction, and the CinemaTraj video dialog.
 - **`assets/`**: local photos, research figures, demo video, and logos. Keep attribution below current when replacing assets.
 
-All publications and projects are visible on the page, with direct resource links. Publications also have accessible BibTeX dialogs. The demo only plays after an explicit click, pauses when its dialog closes, and does not automatically start for visitors who prefer reduced motion.
+All publications and projects are visible on the page, with compact buttons for their resources. Publications also have accessible BibTeX dialogs. The demo only plays after an explicit click, pauses when its dialog closes, and does not automatically start for visitors who prefer reduced motion.
 
 ## Content sources and asset attribution
 

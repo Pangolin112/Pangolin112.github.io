@@ -15,7 +15,7 @@
     <meta property="og:image:alt" content="Qianru Li">
     <meta name="twitter:card" content="summary">
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=20260921-compact">
     <script src="script.js" defer></script>
     <script type="application/ld+json">
       {
@@ -35,6 +35,16 @@
     </script>
   </head>
   <body id="top">
+    <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+      <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></symbol>
+      <symbol id="icon-scholar" viewBox="0 0 24 24"><path d="m2 8 10-5 10 5-10 5-10-5Zm4 3v6c4 3 8 3 12 0v-6M22 8v7"/></symbol>
+      <symbol id="icon-code" viewBox="0 0 24 24"><path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-15-2 18"/></symbol>
+      <symbol id="icon-profile" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7 10v7m4 0v-7m0 3a3 3 0 0 1 6 0v4M7 7h.01"/></symbol>
+      <symbol id="icon-project" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01M7 13h10M7 16h6"/></symbol>
+      <symbol id="icon-paper" viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-6-6Zm0 0v6h6M8 13h8M8 17h6"/></symbol>
+      <symbol id="icon-play" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="m10 8 6 4-6 4V8Z"/></symbol>
+      <symbol id="icon-cite" viewBox="0 0 24 24"><path d="M8 4H6a2 2 0 0 0-2 2v4l-2 2 2 2v4a2 2 0 0 0 2 2h2m8-16h2a2 2 0 0 1 2 2v4l2 2-2 2v4a2 2 0 0 1-2 2h-2M10 9h4m-4 6h4"/></symbol>
+    </svg>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="container header-inner">
@@ -54,36 +64,37 @@
       <section id="about" class="profile" aria-labelledby="profile-title">
         <img class="profile-photo" src="assets/qianru-li.jpg" alt="Qianru Li" width="460" height="460" fetchpriority="high">
         <div class="profile-copy">
-          <h1 id="profile-title">Qianru Li</h1>
+          <div class="profile-heading"><h1 id="profile-title">Qianru Li</h1><p class="profile-location">Munich, Germany</p></div>
           <p class="research-interests">3D Vision · Spatial Intelligence · Generative Modeling</p>
           <p class="profile-affiliation">Master’s thesis at Huawei · M.Sc. studies at TUM</p>
-          <p class="profile-location">Munich, Germany</p>
           <ul class="profile-links" aria-label="Contact and academic profiles">
-            <li><a href="mailto:qianru.li@tum.de">Email</a></li>
-            <li><a href="https://scholar.google.com/citations?hl=en&amp;user=w63MkEcAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
-            <li><a href="https://github.com/Pangolin112" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/qianru-li-14b79b2a4/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a class="button-primary" href="mailto:qianru.li@tum.de"><svg class="icon" aria-hidden="true"><use href="#icon-mail"/></svg>Email</a></li>
+            <li><a href="https://scholar.google.com/citations?hl=en&amp;user=w63MkEcAAAAJ" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar profile"><svg class="icon" aria-hidden="true"><use href="#icon-scholar"/></svg>Scholar</a></li>
+            <li><a href="https://github.com/Pangolin112" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-code"/></svg>GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/qianru-li-14b79b2a4/" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-profile"/></svg>LinkedIn</a></li>
           </ul>
-          <p class="phd-notice"><strong>I am seeking PhD positions</strong> in 3D vision, spatial intelligence, and generative modeling. Please <a href="mailto:qianru.li@tum.de">get in touch</a> if our research interests align.</p>
         </div>
+        <div class="phd-banner"><p class="phd-notice"><strong>I am seeking PhD positions</strong> in 3D vision, spatial intelligence, and generative modeling.</p><a class="action-button" href="mailto:qianru.li@tum.de">Get in touch</a></div>
       </section>
 
-      <section id="bio" class="section" aria-labelledby="bio-title">
-        <h2 id="bio-title">About</h2>
-        <p>I am working on 3D scene generation for my master’s thesis at <a href="https://www.huawei.com/en/" target="_blank" rel="noopener noreferrer">Huawei’s Hilbert Research Center</a> in Munich. My research focuses on 3D scene understanding, camera trajectory generation, visual relocalization, and generative modeling.</p>
-        <p>Previously, I was a research intern at the TUM Visual Computing &amp; Artificial Intelligence Lab. My academic background is in Robotics, Cognition, Intelligence at the <a href="https://www.tum.de/en/" target="_blank" rel="noopener noreferrer">Technical University of Munich</a> and Automation at <a href="https://www.seu.edu.cn/english/" target="_blank" rel="noopener noreferrer">Southeast University</a>.</p>
-      </section>
+      <div class="intro-grid">
+        <section id="bio" class="section" aria-labelledby="bio-title">
+          <h2 id="bio-title">About</h2>
+          <p>I am working on 3D scene generation for my master’s thesis at <a href="https://www.huawei.com/en/" target="_blank" rel="noopener noreferrer">Huawei’s Hilbert Research Center</a> in Munich. My research focuses on 3D scene understanding, camera trajectory generation, visual relocalization, and generative modeling.</p>
+          <p>Previously, I was a research intern at the TUM Visual Computing &amp; Artificial Intelligence Lab. My academic background is in Robotics, Cognition, Intelligence at the <a href="https://www.tum.de/en/" target="_blank" rel="noopener noreferrer">Technical University of Munich</a> and Automation at <a href="https://www.seu.edu.cn/english/" target="_blank" rel="noopener noreferrer">Southeast University</a>.</p>
+        </section>
 
-      <section id="news" class="section" aria-labelledby="news-title">
-        <h2 id="news-title">News</h2>
-        <ul class="news-list">
-          <li><time datetime="2026-09">Sep 2026</time><span><a href="https://arxiv.org/abs/2609.21804" target="_blank" rel="noopener noreferrer">VideoReloc</a> is available on arXiv.</span></li>
-          <li><time datetime="2026">2026</time><span><a href="https://cinematraj.github.io/" target="_blank" rel="noopener noreferrer">CinemaTraj</a> at ACM Multimedia 2026.</span></li>
-        </ul>
-      </section>
+        <section id="news" class="section" aria-labelledby="news-title">
+          <h2 id="news-title">News</h2>
+          <ul class="news-list">
+            <li><time datetime="2026-09">Sep 2026</time><span><a href="https://arxiv.org/abs/2609.21804" target="_blank" rel="noopener noreferrer">VideoReloc</a> is available on arXiv.</span></li>
+            <li><time datetime="2026">2026</time><span><a href="https://cinematraj.github.io/" target="_blank" rel="noopener noreferrer">CinemaTraj</a> at ACM Multimedia 2026.</span></li>
+          </ul>
+        </section>
+      </div>
 
       <section id="research" class="section" aria-labelledby="research-title">
-        <div class="section-heading"><h2 id="research-title">Publications</h2><p class="section-note">* Equal contribution</p></div>
+        <div class="section-heading"><h2 id="research-title">Publications</h2><div class="section-tools"><p class="section-note">* Equal contribution</p><a class="action-button" href="https://scholar.google.com/citations?hl=en&amp;user=w63MkEcAAAAJ" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-scholar"/></svg>Google Scholar</a></div></div>
         <div class="work-list">
           <article class="work-row" data-kind="publication">
             <a class="work-media" href="https://cinematraj.github.io/" target="_blank" rel="noopener noreferrer" aria-label="Explore the CinemaTraj project"><img src="assets/cinematraj-teaser.jpg" alt="CinemaTraj turns a natural language prompt and a reconstructed 3D room into a cinematic camera trajectory." width="2200" height="977" loading="lazy"></a>
@@ -93,11 +104,11 @@
               <p class="venue">ACM Multimedia, 2026</p>
               <p class="work-summary">Generating cinematic tours of 3D scenes from natural language, with spatially grounded camera movements and collision-aware trajectory planning.</p>
               <ul class="resource-links" aria-label="CinemaTraj resources">
-                <li><a href="https://cinematraj.github.io/" target="_blank" rel="noopener noreferrer">Project</a></li>
-                <li><a href="https://arxiv.org/abs/2607.26910" target="_blank" rel="noopener noreferrer">Paper</a></li>
-                <li><a href="https://github.com/Pangolin112/CinemaTraj" target="_blank" rel="noopener noreferrer">Code</a></li>
-                <li hidden data-demo-control><button data-open-demo aria-label="Play CinemaTraj demo">Video</button></li>
-                <li hidden data-citation-control><button data-citation="cinematraj" aria-label="Show CinemaTraj BibTeX citation">BibTeX</button></li>
+                <li><a href="https://cinematraj.github.io/" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-project"/></svg>Project</a></li>
+                <li><a href="https://arxiv.org/abs/2607.26910" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-paper"/></svg>Paper</a></li>
+                <li><a href="https://github.com/Pangolin112/CinemaTraj" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-code"/></svg>Code</a></li>
+                <li hidden data-demo-control><button data-open-demo aria-label="Play CinemaTraj demo"><svg class="icon" aria-hidden="true"><use href="#icon-play"/></svg>Video</button></li>
+                <li hidden data-citation-control><button data-citation="cinematraj" aria-label="Show CinemaTraj BibTeX citation"><svg class="icon" aria-hidden="true"><use href="#icon-cite"/></svg>BibTeX</button></li>
               </ul>
             </div>
           </article>
@@ -109,10 +120,10 @@
               <p class="venue">arXiv preprint, 2026</p>
               <p class="work-summary">Relocalizing a camera after lighting and furniture changes using video context and a compact, 100 kB semantic map of 3D boxes.</p>
               <ul class="resource-links" aria-label="VideoReloc resources">
-                <li><a href="https://videoreloc.github.io/" target="_blank" rel="noopener noreferrer">Project</a></li>
-                <li><a href="https://arxiv.org/abs/2609.21804" target="_blank" rel="noopener noreferrer">Paper</a></li>
-                <li><a href="https://videoreloc.github.io/#video" target="_blank" rel="noopener noreferrer">Video</a></li>
-                <li hidden data-citation-control><button data-citation="videoreloc" aria-label="Show VideoReloc BibTeX citation">BibTeX</button></li>
+                <li><a href="https://videoreloc.github.io/" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-project"/></svg>Project</a></li>
+                <li><a href="https://arxiv.org/abs/2609.21804" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-paper"/></svg>Paper</a></li>
+                <li><a href="https://videoreloc.github.io/#video" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-play"/></svg>Video</a></li>
+                <li hidden data-citation-control><button data-citation="videoreloc" aria-label="Show VideoReloc BibTeX citation"><svg class="icon" aria-hidden="true"><use href="#icon-cite"/></svg>BibTeX</button></li>
               </ul>
             </div>
           </article>
@@ -128,7 +139,7 @@
               <h3><a href="https://github.com/Pangolin112/4OTex" target="_blank" rel="noopener noreferrer">4OTex: 4D Object Texturing from Diffusion Priors</a></h3>
               <p class="venue">4D generation</p>
               <p class="work-summary">Generating textures for animated 3D objects using diffusion priors.</p>
-              <ul class="resource-links" aria-label="4OTex resources"><li><a href="https://github.com/Pangolin112/4OTex" target="_blank" rel="noopener noreferrer">GitHub</a></li><li><a href="https://github.com/Pangolin112/4OTex/blob/main/static/DLinVC_Report.pdf" target="_blank" rel="noopener noreferrer">Report</a></li></ul>
+              <ul class="resource-links" aria-label="4OTex resources"><li><a href="https://github.com/Pangolin112/4OTex" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-code"/></svg>GitHub</a></li><li><a href="https://github.com/Pangolin112/4OTex/blob/main/static/DLinVC_Report.pdf" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-paper"/></svg>Report</a></li></ul>
             </div>
           </article>
           <article class="work-row" data-kind="project">
@@ -137,7 +148,7 @@
               <h3><a href="https://github.com/Pangolin112/SplatterScene" target="_blank" rel="noopener noreferrer">Splatter Scene: Single / Few Images to 3D Gaussians on Indoor Scenes</a></h3>
               <p class="venue">3D reconstruction</p>
               <p class="work-summary">Extending object-level Gaussian prediction to reconstruct indoor scenes from sparse views.</p>
-              <ul class="resource-links" aria-label="Splatter Scene resources"><li><a href="https://github.com/Pangolin112/SplatterScene" target="_blank" rel="noopener noreferrer">Code</a></li><li><a href="https://github.com/Pangolin112/SplatterScene/blob/main/demo_examples/ADL4CV_Report_resized.pdf" target="_blank" rel="noopener noreferrer">Report</a></li></ul>
+              <ul class="resource-links" aria-label="Splatter Scene resources"><li><a href="https://github.com/Pangolin112/SplatterScene" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-code"/></svg>Code</a></li><li><a href="https://github.com/Pangolin112/SplatterScene/blob/main/demo_examples/ADL4CV_Report_resized.pdf" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-paper"/></svg>Report</a></li></ul>
             </div>
           </article>
           <article class="work-row" data-kind="project">
@@ -147,7 +158,7 @@
               <p class="authors"><strong>Qianru Li</strong>, Lukas Höllein</p>
               <p class="venue">TUM guided research, 2025</p>
               <p class="work-summary">Embedding a chosen pattern into 3D Gaussian scenes so it becomes legible from a designated viewpoint, with diffusion-guided editing to harmonize the scene’s appearance.</p>
-              <ul class="resource-links" aria-label="Anamorphic Scene resources"><li><a href="https://github.com/Pangolin112/AnamorphicScene" target="_blank" rel="noopener noreferrer">Code</a></li></ul>
+              <ul class="resource-links" aria-label="Anamorphic Scene resources"><li><a href="https://github.com/Pangolin112/AnamorphicScene" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-code"/></svg>Code</a></li></ul>
             </div>
           </article>
         </div>
@@ -191,8 +202,8 @@
       </section>
 
       <section id="contact" class="section contact-section" aria-labelledby="contact-title">
-        <h2 id="contact-title">Contact</h2>
-        <p>For PhD opportunities or research collaborations, please email <a href="mailto:qianru.li@tum.de">qianru.li@tum.de</a>.</p>
+        <div><h2 id="contact-title">Contact</h2><p>For PhD opportunities or research collaborations.</p></div>
+        <a class="action-button button-primary" href="mailto:qianru.li@tum.de"><svg class="icon" aria-hidden="true"><use href="#icon-mail"/></svg>qianru.li@tum.de</a>
       </section>
     </main>
 
