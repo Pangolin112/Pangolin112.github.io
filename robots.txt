@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pangolin112.github.io/sitemap.xml
