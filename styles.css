@@ -45,9 +45,9 @@ strong { font-weight: 650; }
 /* Small framed portrait, identity, contact buttons, and PhD availability. */
 .profile { display: grid; grid-template-columns: 112px minmax(0, 1fr); align-items: center; column-gap: 24px; row-gap: 16px; margin-top: 24px; padding: 22px; border: 1px solid var(--line); border-radius: 14px; background: #fafbfd; }
 .profile-photo { width: 112px; height: 136px; object-fit: cover; border: 1px solid #ced8e4; border-radius: 10px; padding: 3px; background: #fff; }
-.profile-heading { display: flex; align-items: baseline; flex-wrap: wrap; column-gap: 16px; row-gap: 2px; }
+.profile-heading { display: flex; align-items: last baseline; flex-wrap: wrap; column-gap: 16px; row-gap: 2px; }
 h1 { font-size: 32px; font-weight: 650; line-height: 1.2; letter-spacing: -.6px; }
-.name-chinese { display: block; margin-top: 4px; color: var(--muted); font-size: 16px; font-weight: 400; line-height: 1.4; letter-spacing: 0; }
+.name-chinese { display: block; margin-bottom: 4px; color: var(--muted); font-size: 16px; font-weight: 400; line-height: 1.4; letter-spacing: 0; }
 .profile-location { color: var(--muted); font-size: 12px; }
 .research-interests { font-size: 15px; margin-top: 5px; line-height: 1.5; }
 .profile-affiliation { margin-top: 3px; color: var(--muted); font-size: 13px; }
