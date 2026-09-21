@@ -78,7 +78,10 @@ h2 { font-size: 20px; line-height: 1.35; font-weight: 650; }
 .work-media { position: relative; display: flex; align-items: center; justify-content: center; width: 190px; aspect-ratio: 1.65; overflow: hidden; background: #fff; border: 1px solid #e1e6ec; border-radius: 8px; }
 .work-media > img { width: 100%; height: 100%; object-fit: contain; }
 .work-media:hover { border-color: #93abc5; }
-.work-media--splatter > img { position: absolute; max-width: none; width: 310%; height: auto; right: -1%; top: -38%; }
+/* Crop the first complete RGB/Depth comparison at (1340, 252), 630 × 324 px
+   in the 2000 × 1415 poster. Keep this crop independent of thumbnail shape. */
+.splatter-crop { position: relative; display: block; width: 100%; aspect-ratio: 630 / 324; overflow: hidden; }
+.splatter-crop > img { position: absolute; max-width: none; width: 317.4603%; height: auto; left: -212.6984%; top: -77.7778%; }
 .work-copy { min-width: 0; }
 .work-copy h3 { font-size: 15px; line-height: 1.4; font-weight: 650; }
 .work-copy h3 a { color: var(--link); }
