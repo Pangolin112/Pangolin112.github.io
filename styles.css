@@ -86,7 +86,7 @@ h2 { font-size: 20px; line-height: 1.35; font-weight: 650; }
 .work-copy h3 { font-size: 15px; line-height: 1.4; font-weight: 650; }
 .work-copy h3 a { color: var(--link); }
 .authors { margin-top: 4px; font-size: 12px; line-height: 1.55; }
-.venue { display: inline-block; margin-top: 5px; padding: 1px 6px; color: #425871; background: #edf2f8; border-radius: 4px; font-size: 11px; font-weight: 600; line-height: 1.6; }
+.venue { display: inline-block; margin-top: 5px; padding: 1px 7px; color: var(--link); background: #e3ecf8; border: 1px solid #b5cae4; border-radius: 4px; font-size: 11px; font-weight: 600; line-height: 1.6; }
 .work-summary { margin-top: 7px; color: var(--muted); font-size: 13px; line-height: 1.6; }
 .resource-links { margin-top: 10px; }
 
