@@ -39,6 +39,7 @@ Public sources were checked on 21 September 2026 (the TUM Computer Vision Group 
 | Academic profile and research interests | [Google Scholar](https://scholar.google.com/citations?hl=en&user=w63MkEcAAAAJ) |
 | Degrees, education dates, master's thesis topic and affiliation, Huawei internship, TUM research internship | [LinkedIn](https://www.linkedin.com/in/qianru-li-14b79b2a4/) profile text and thesis details supplied directly by the owner |
 | TUM Computer Vision & AI chair (Prof. Daniel Cremers) name and link | [Computer Vision Group website](https://cvg.cit.tum.de/); the TUM and Huawei Hilbert Research Center affiliations are also listed on the [VideoReloc project page](https://videoreloc.github.io/) |
+| TUM Visual Computing & AI Lab (Prof. Matthias Nießner) name and link | [Lab website](https://niessnerlab.org/) |
 | CinemaTraj title, authors, ACM Multimedia 2026 venue, affiliation, teaser, and demo | [Project page](https://cinematraj.github.io/), [paper](https://arxiv.org/abs/2607.26910), [code](https://github.com/Pangolin112/CinemaTraj) |
 | VideoReloc metadata, affiliation, and teaser | [Project page](https://videoreloc.github.io/), [arXiv preprint](https://arxiv.org/abs/2609.21804) |
 | 4OTex description, deer figure, report, and results | [GitHub repository](https://github.com/Pangolin112/4OTex) |

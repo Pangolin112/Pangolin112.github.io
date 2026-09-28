@@ -12,8 +12,8 @@
 html { scroll-padding-top: 72px; }
 body { margin: 0; color: var(--text); background: #fff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; font-size: 14px; line-height: 1.55; }
 body:has(dialog[open]) { overflow: hidden; }
-a { color: var(--link); text-decoration: none; text-underline-offset: 3px; }
-a:hover, p a, .news-list a { text-decoration: underline; }
+a { color: var(--link); text-decoration: none; }
+a:hover { color: #194c7e; }
 button { font: inherit; cursor: pointer; }
 a:focus-visible, button:focus-visible, pre:focus-visible, video:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; }
 img { display: block; max-width: 100%; height: auto; }
@@ -32,12 +32,12 @@ strong { font-weight: 650; }
 .site-name { color: var(--text); font-size: 16px; font-weight: 650; white-space: nowrap; }
 .main-nav { display: flex; align-items: center; gap: 4px; }
 .main-nav a { color: var(--muted); font-size: 12px; line-height: 18px; padding: 5px 10px; border: 1px solid transparent; border-radius: 6px; }
-.main-nav a:hover, .main-nav a[aria-current] { color: var(--link); background: #edf3fb; border-color: #d8e3f1; text-decoration: none; }
+.main-nav a:hover, .main-nav a[aria-current] { color: var(--link); background: #edf3fb; border-color: #d8e3f1; }
 .menu-toggle { display: none; color: var(--text); border: 1px solid #cbd5e2; border-radius: 6px; background: #fff; padding: 4px 10px; font-size: 12px; }
 .profile-links, .resource-links { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; list-style: none; padding: 0; }
 .profile-links li, .resource-links li { display: flex; }
-.profile-links a, .resource-links a, .resource-links button, .action-button { display: inline-flex; align-items: center; justify-content: center; gap: 5px; min-height: 28px; padding: 3px 9px; color: #315575; background: #fff; border: 1px solid #cbd7e4; border-radius: 6px; font-size: 12px; font-weight: 500; line-height: 20px; text-decoration: none; white-space: nowrap; }
-.profile-links a:hover, .resource-links a:hover, .resource-links button:hover, .action-button:hover { color: #194c7e; border-color: #8eabc9; background: #edf3fa; text-decoration: none; }
+.profile-links a, .resource-links a, .resource-links button, .action-button { display: inline-flex; align-items: center; justify-content: center; gap: 5px; min-height: 28px; padding: 3px 9px; color: #315575; background: #fff; border: 1px solid #cbd7e4; border-radius: 6px; font-size: 12px; font-weight: 500; line-height: 20px; white-space: nowrap; }
+.profile-links a:hover, .resource-links a:hover, .resource-links button:hover, .action-button:hover { color: #194c7e; border-color: #8eabc9; background: #edf3fa; }
 .profile-links .button-primary, .action-button.button-primary { color: #fff; background: #245b91; border-color: #245b91; }
 .profile-links .button-primary:hover, .action-button.button-primary:hover { color: #fff; background: #194974; border-color: #194974; }
 .resource-links li:first-child a { color: #215b96; background: #f0f5fc; border-color: #bdcfe3; }
