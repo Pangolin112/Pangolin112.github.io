@@ -31,13 +31,14 @@ All publications and projects are visible on the page, with compact buttons for 
 
 ## Content sources and asset attribution
 
-Public sources were checked on 21 September 2026:
+Public sources were checked on 21 September 2026 (the TUM Computer Vision Group page on 28 September 2026):
 
 | Content or asset | Source |
 | --- | --- |
 | Name, TUM master's status, Munich location, email, and profile photo | [GitHub profile](https://github.com/Pangolin112), [profile README](https://github.com/Pangolin112/Pangolin112), [original photo](https://avatars.githubusercontent.com/u/57064279?v=4) |
 | Academic profile and research interests | [Google Scholar](https://scholar.google.com/citations?hl=en&user=w63MkEcAAAAJ) |
-| Degrees, education dates, Huawei thesis and internship, TUM research internship | [LinkedIn](https://www.linkedin.com/in/qianru-li-14b79b2a4/) profile text supplied directly by the owner |
+| Degrees, education dates, master's thesis topic and affiliation, Huawei internship, TUM research internship | [LinkedIn](https://www.linkedin.com/in/qianru-li-14b79b2a4/) profile text and thesis details supplied directly by the owner |
+| TUM Computer Vision & AI chair (Prof. Daniel Cremers) name and link | [Computer Vision Group website](https://cvg.cit.tum.de/); the TUM and Huawei Hilbert Research Center affiliations are also listed on the [VideoReloc project page](https://videoreloc.github.io/) |
 | CinemaTraj title, authors, ACM Multimedia 2026 venue, affiliation, teaser, and demo | [Project page](https://cinematraj.github.io/), [paper](https://arxiv.org/abs/2607.26910), [code](https://github.com/Pangolin112/CinemaTraj) |
 | VideoReloc metadata, affiliation, and teaser | [Project page](https://videoreloc.github.io/), [arXiv preprint](https://arxiv.org/abs/2609.21804) |
 | 4OTex description, deer figure, report, and results | [GitHub repository](https://github.com/Pangolin112/4OTex) |
@@ -49,6 +50,6 @@ Public sources were checked on 21 September 2026:
 
 CinemaTraj's author list and proceedings citation follow its project page, which differs from the initially indexed arXiv/Scholar author list. The owner confirmed July 2026 as the month of the CinemaTraj acceptance result. VideoReloc is labeled as a preprint, without assigning an unverified conference venue.
 
-LinkedIn did not permit automated access; the owner supplied the relevant profile text. Education and experience use those confirmed roles and dates. Huawei employment is located in Munich, as supplied by the owner. The research papers separately list Dresden affiliations. TUM education is dated October 2023–July 2026, and the Huawei master's thesis is listed as March 2026–present, matching the supplied profile without assuming a graduation status. The partial grade shown in the profile is omitted.
+LinkedIn did not permit automated access; the owner supplied the relevant profile text. Education and experience use those confirmed roles and dates. Huawei employment is located in Munich, as supplied by the owner. The research papers separately list Dresden affiliations. TUM education is dated October 2023–July 2026, and the master's thesis at the TUM Computer Vision & AI chair (Prof. Daniel Cremers), in collaboration with Huawei, is listed as March 2026–present, matching the supplied profile without assuming a graduation status. The thesis topic follows VideoReloc, as confirmed by the owner. The partial grade shown in the profile is omitted.
 
 Anamorphic Scene uses the authentic teaser from the owner-supplied guided research report and credits Qianru Li and Lukas Höllein. Its description reflects the report’s use of 3D Gaussian scenes, viewpoint-specific pattern projection, and diffusion-guided style harmonization. The report’s conference-template metadata is not treated as evidence of a publication venue. The Splatter Scene entry displays a crop of the original poster via CSS; its report remains linked for the complete context. WebP figures and the silent MP4 demo are web-optimized versions of the original project media. The Southeast University SVG is framed to show its original emblem, and the original TUM logo geometry is rendered in TUM blue on white. Project media and university/company logos retain their original ownership.
